@@ -1,0 +1,68 @@
+body {
+    
+    margin: 32px 35px;
+    max-width:fit-content;
+    max-height: fit-content;
+    
+    margin: auto; /* Center the calculator on the screen */
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Align items vertically */
+    background-image: url('cal.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+h1 {
+    text-align: center;
+    font-size: 70px;
+    margin-top: 10px;
+    color: black;
+    background-color:ghostwhite;
+}
+
+form {
+    margin-top: 15px;
+    text-align: center;
+    background-color: white;
+}
+
+input[type=text] {
+    width: 300px;
+    height: 50px;
+    margin-top: 15px;
+    background-color: bisque;
+    border-radius: 7px;
+    margin: 8px;
+    cursor:auto;
+}
+
+input {
+    width: 60px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 7px;
+    margin: 4px;
+}
+
+input.num {
+    color: black;
+    background-color: cornflowerblue;
+}
+
+input.operator {
+    color: cyan;
+    background-color:cornflowerblue;
+    border: 2px solid black;
+}
+
+input.operator:hover {
+    box-shadow: 3px 3px;
+    background-color: rgb(202, 18, 18);
+}
+
+.num:focus {
+    background-color: blue;
+}
+
+
